@@ -197,3 +197,12 @@ cython_debug/
 .cursorindexingignore
 
 node_modules/
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.*
+terraform/*.tfstate.*
+terraform/*.bak
+terraform/tfplan
+terraform/crash.log
